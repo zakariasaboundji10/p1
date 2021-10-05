@@ -1,0 +1,336 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+  background-color: darkgrey;
+}
+nav{
+  background: #000000;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  letter-spacing: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+/* main */
+
+.container{
+width: 739px;
+height: 448px;
+margin-left: 650px;
+margin-top: 50px;
+background: rgb(150, 149, 149);
+border: 1px solid #707070;
+}
+.h-c{
+  text-align: center;
+  line-height: 2;
+  font-size: 25px;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+.math{
+width: 186px;
+height: 56px;
+margin-left: 520px;
+margin-top: 20px;
+border-radius: 28px;
+background: #e9e3e3;
+border: 1px solid #707070;
+animation: Math 1s ease 0s 1 normal forwards;
+border: none;
+}
+
+.math h3{
+  font-size: 25px;
+  margin-left: 95px;
+  line-height: 2;
+  color: black;
+}
+
+.math h3:hover{
+ color: rgb(27, 104, 180);
+}
+
+.svt{
+  width: 186px;
+height: 56px;
+margin-left: 520px;
+margin-top: 20px;
+border-radius: 28px;
+background: #e9e3e3;
+border: 1px solid #707070;
+animation: Math 1s ease 0s 1 normal forwards;
+border: none;
+}
+
+.svt h3{
+  font-size: 25px;
+  margin-left: 15px;
+  margin-right: 0;
+  line-height: 2;
+  color: black;
+}
+
+.svt h3:hover{
+  color: rgb(27, 104, 180);
+}
+
+.english{
+  width: 186px;
+height: 56px;
+margin-left: 520px;
+margin-top: 20px;
+border-radius: 28px;
+background: #e9e3e3;
+border: 1px solid #707070;
+animation: Math 1s ease 0s 1 normal forwards;
+border: none;
+}
+.english h3{
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 0;
+  line-height: 2;
+  color: black;
+}
+
+.english h3:hover{
+  color: rgb(27, 104, 180);
+}
+
+.geo{
+  width: 186px;
+  height: 56px;
+  margin-left: 520px;
+  margin-top: 20px;
+  border-radius: 28px;
+  background: #e9e3e3;
+  border: 1px solid #707070;
+  animation: Math 1s ease 0s 1 normal forwards;
+  border: none;
+}
+.geo h3{
+  font-size: 25px;
+  margin-left: 30px;
+  margin-right: 0;
+  line-height: 2;
+  color: black;
+}
+.geo h3:hover{
+  color: rgb(27, 104, 180);
+}
+
+.info{
+  width: 186px;
+  height: 56px;
+  margin-left: 520px;
+  margin-top: 20px;
+  border-radius: 28px;
+  background: #e9e3e3;
+  border: 1px solid #707070;
+  animation: Math 1s ease 0s 1 normal forwards;
+  border: none;
+}
+
+.info h3{
+  font-size: 25px;
+  margin-left: 95px;
+  margin-right: 0;
+  line-height: 2;
+  color: black;
+}
+
+.info h3:hover{
+  color: rgb(27, 104, 180);
+}
+
+.phisique{
+  width: 186px;
+  height: 56px;
+  margin-left: 220px;
+  margin-top: -360px;
+  border-radius: 28px;
+  background: #e9e3e3;
+  border: 1px solid #707070;
+  animation: Math 1s ease 0s 1 normal forwards;
+  border: none;
+}
+
+.phisique h3{
+  font-size: 25px;
+  margin-left: 25px;
+  margin-right: 0;
+  line-height: 2;
+  color: black;
+}
+.phisique h3:hover{
+  color: rgb(27, 104, 180);
+}
+
+.francais{
+  width: 186px;
+  height: 56px;
+  margin-left: 220px;
+  margin-top: 20px;
+  border-radius: 28px;
+  background: #e9e3e3;
+  border: 1px solid #707070;
+  animation: Math 1s ease 0s 1 normal forwards;
+  border: none;
+}
+
+.francais h3{
+  font-size: 25px;
+  margin-left: 55px;
+  margin-right: 0;
+  line-height: 2;
+  color: black;
+}
+
+.francais h3:hover{
+  color: rgb(27, 104, 180);
+}
+
+.isla{
+  width: 186px;
+  height: 56px;
+  margin-left: 220px;
+  margin-top: 20px;
+  border-radius: 28px;
+  background: #e9e3e3;
+  border: 1px solid #707070;
+  animation: Math 1s ease 0s 1 normal forwards;
+  border: none;
+}
+.isla h3{
+  font-size: 25px;
+  margin-left: 30px;
+  margin-right: 0;
+  line-height: 2;
+  color: black;
+}
+
+.isla h3:hover{
+  color: rgb(27, 104, 180);
+}
+
+.falsafa{
+  width: 186px;
+  height: 56px;
+  margin-left: 220px;
+  margin-top: 20px;
+  border-radius: 28px;
+  background: #e9e3e3;
+  border: 1px solid #707070;
+  animation: Math 1s ease 0s 1 normal forwards;
+  border: none;
+}
+.falsafa h3{
+  font-size: 25px;
+  margin-left: 105px;
+  margin-right: 0;
+  line-height: 2;
+  color: black;
+}
+
+.falsafa h3:hover{
+  color: rgb(27, 104, 180);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* key */
+/* myanim */
+@keyframes myAnim {
+  0% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+/* Math */
+@keyframes Math {
+  0% {
+    transform: scaleX(2);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}

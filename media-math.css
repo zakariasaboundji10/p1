@@ -1,0 +1,520 @@
+/*======================================================= for mobile ==============================================================*/
+@media screen and (min-width:200px) and (max-width:280px) {
+    label.logo{
+      font-size: 30px;
+      padding-left: 5px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #000000;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    } 
+    /* main */
+    .container{
+      margin-left: 0;
+      width: 100%;
+      height: 70px;
+      margin-top: 20px;
+    }
+    .h-c{
+      font-size: 19px;
+    }
+    .d-1{
+      margin-right: 10px;
+    }
+    .dars-1{
+      width: 100%;
+    }
+    .dars-1 p{
+      font-size: 18px;
+      color: black;
+    }
+    .num-cours{
+      margin-left: 257px;
+    }
+    
+}
+
+/* 300 -320 */
+
+@media screen and (min-width:300px) and (max-width:320px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .h-c{
+    font-size: 19px;
+  }
+  .d-1{
+    margin-right: 10px;
+  }
+  .dars-1{
+    width: 100%;
+  }
+  .dars-1 p{
+    font-size: 18px;
+    color: black;
+  }
+  .num-cours{
+    margin-left: 296px;
+  }
+}
+
+/* 330 - 360 */
+@media screen and (min-width:330px) and (max-width:360px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .h-c{
+    font-size: 19px;
+  }
+  .d-1{
+    margin-right: 10px;
+  }
+  .dars-1{
+    width: 100%;
+  }
+  .dars-1 p{
+    font-size: 18px;
+    color: black;
+  }
+  .num-cours{
+    margin-left: 338px;
+  }
+}
+
+/* 370 - 375 */
+@media screen and (min-width:370px) and (max-width:375px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .h-c{
+    font-size: 19px;
+  }
+  .d-1{
+    margin-right: 10px;
+  }
+  .dars-1{
+    width: 100%;
+  }
+  .dars-1 p{
+    font-size: 18px;
+    color: black;
+  }
+  .num-cours{
+    margin-left: 352px;
+  }
+}
+
+/* 400-411 */
+@media screen and (min-width:400px) and (max-width:411px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .h-c{
+    font-size: 19px;
+  }
+  .d-1{
+    margin-right: 10px;
+  }
+  .dars-1{
+    width: 100%;
+  }
+  .dars-1 p{
+    font-size: 18px;
+    color: black;
+  }
+  .num-cours{
+    margin-left: 388px;
+  }
+}
+
+/* 412 - 414 */
+@media screen and (min-width:412px) and (max-width:414px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .h-c{
+    font-size: 19px;
+  }
+  .d-1{
+    margin-right: 10px;
+  }
+  .dars-1{
+    width: 100%;
+  }
+  .dars-1 p{
+    font-size: 18px;
+    color: black;
+  }
+  .num-cours{
+    margin-left: 390px;
+  }
+}
+
+/*====================================== for tablet =================================================*/
+
+/* 500 - 540 */
+@media screen and (min-width:500px) and (max-width:540px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .h-c{
+    font-size: 19px;
+  }
+  .d-1{
+    margin-right: 10px;
+  }
+  .dars-1{
+    width: 100%;
+  }
+  .dars-1 p{
+    font-size: 18px;
+    color: black;
+  }
+  .num-cours{
+    margin-left: 516px;
+  }
+}
+
+/* 1000 - 1024 */
+@media screen and (min-width:1000px) and (max-width:1024px) {
+  .container{
+    margin-left: 300px;
+  }
+}
+
+/* 700 - 768 */
+@media screen and (min-width:700px) and (max-width:768px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .h-c{
+    font-size: 19px;
+  }
+  .d-1{
+    margin-right: 10px;
+  }
+  .dars-1{
+    width: 100%;
+  }
+  .dars-1 p{
+    font-size: 18px;
+    color: black;
+  }
+  .num-cours{
+    margin-left: 746px;
+  }
+}
+
+/* 1030 - 1280 */
+@media screen and (min-width:1030px) and (max-width:1280px) {
+  .container{
+    margin-left: 550px;
+  }
+}
+
+/* 1300 - 1366 */
+@media screen and (min-width:1300px) and (max-width:1366px) {
+  .container{
+    margin-left: 620px;
+  }
+}

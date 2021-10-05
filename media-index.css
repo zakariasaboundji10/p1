@@ -1,0 +1,1031 @@
+/*======================================================= for mobile ==============================================================*/
+@media screen and (min-width:200px) and (max-width:280px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .h-c{
+    font-size: 26px;
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .math{
+    animation: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .math h3{
+    margin-left: 130px;
+  }
+  .svt{
+    margin-left: 0px;
+    animation: none;
+    width: 100%;
+  }
+  .svt h3{
+    margin-left: 50px;
+    line-height: 2;
+  }
+  .english{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .english h3{
+    margin-left: 130px;
+  }
+  .geo{
+    margin-left: 0;
+    animation: none;
+    width: 100%;
+  }
+  .geo h3{
+    margin-left: 60px
+  }
+  .info{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .info h3{
+    margin-left: 120px;
+  }
+  .phisique{
+    animation: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .phisique h3{
+    margin-left: 70px;
+  }
+  .francais{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .francais h3{
+    margin-left: 90px;
+  }
+  .isla{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .isla h3{
+    margin-left: 70px;
+  }
+  .falsafa{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .falsafa h3{
+    margin-left: 143px;
+  }
+}
+
+/*========================== 300 - 320 px =============================*/
+@media screen and (min-width:300px) and (max-width:320px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .h-c{
+    font-size: 26px;
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .math{
+    animation: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .math h3{
+    margin-left: 130px;
+  }
+  .svt{
+    margin-left: 0px;
+    animation: none;
+    width: 100%;
+  }
+  .svt h3{
+    margin-left: 50px;
+    line-height: 2;
+  }
+  .english{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .english h3{
+    margin-left: 130px;
+  }
+  .geo{
+    margin-left: 0;
+    animation: none;
+    width: 100%;
+  }
+  .geo h3{
+    margin-left: 60px
+  }
+  .info{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .info h3{
+    margin-left: 120px;
+  }
+  .phisique{
+    animation: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .phisique h3{
+    margin-left: 70px;
+  }
+  .francais{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .francais h3{
+    margin-left: 90px;
+  }
+  .isla{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .isla h3{
+    margin-left: 70px;
+  }
+  .falsafa{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .falsafa h3{
+    margin-left: 143px;
+  }
+}
+
+/*============================ 330 - 360 px ====================*/
+@media screen and (min-width:330px) and (max-width:360px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .h-c{
+    font-size: 26px;
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .math{
+    animation: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .math h3{
+    margin-left: 150px;
+  }
+  .svt{
+    margin-left: 0px;
+    animation: none;
+    width: 100%;
+  }
+  .svt h3{
+    margin-left: 70px;
+    line-height: 2;
+  }
+  .english{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .english h3{
+    margin-left: 150px;
+  }
+  .geo{
+    margin-left: 0;
+    animation: none;
+    width: 100%;
+  }
+  .geo h3{
+    margin-left: 80px
+  }
+  .info{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .info h3{
+    margin-left: 140px;
+  }
+  .phisique{
+    animation: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .phisique h3{
+    margin-left: 90px;
+  }
+  .francais{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .francais h3{
+    margin-left: 120px;
+  }
+  .isla{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .isla h3{
+    margin-left: 100px;
+  }
+  .falsafa{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .falsafa h3{
+    margin-left: 170px;
+  }
+}
+
+/* ========================= 370 - 375px ==========*/
+@media screen and (min-width:370px) and (max-width:375px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .h-c{
+    font-size: 26px;
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .math{
+    animation: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .math h3{
+    margin-left: 170px;
+  }
+  .svt{
+    margin-left: 0px;
+    animation: none;
+    width: 100%;
+  }
+  .svt h3{
+    margin-left: 90px;
+    line-height: 2;
+  }
+  .english{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .english h3{
+    margin-left: 170px;
+  }
+  .geo{
+    margin-left: 0;
+    animation: none;
+    width: 100%;
+  }
+  .geo h3{
+    margin-left: 100px
+  }
+  .info{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .info h3{
+    margin-left:160px;
+  }
+  .phisique{
+    animation: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .phisique h3{
+    margin-left: 110px;
+  }
+  .francais{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .francais h3{
+    margin-left: 140px;
+  }
+  .isla{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .isla h3{
+    margin-left: 120px;
+  }
+  .falsafa{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .falsafa h3{
+    margin-left: 190px;
+  }
+}
+
+/* ================================== 400 - 411 =========================== */
+@media screen and (min-width:400px) and (max-width:411px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .h-c{
+    font-size: 26px;
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .math{
+    animation: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .math h3{
+    margin-left: 170px;
+  }
+  .svt{
+    margin-left: 0px;
+    animation: none;
+    width: 100%;
+  }
+  .svt h3{
+    margin-left: 90px;
+    line-height: 2;
+  }
+  .english{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .english h3{
+    margin-left: 170px;
+  }
+  .geo{
+    margin-left: 0;
+    animation: none;
+    width: 100%;
+  }
+  .geo h3{
+    margin-left: 100px
+  }
+  .info{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .info h3{
+    margin-left: 160px;
+  }
+  .phisique{
+    animation: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .phisique h3{
+    margin-left: 110px;
+  }
+  .francais{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .francais h3{
+    margin-left: 140px;
+  }
+  .isla{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .isla h3{
+    margin-left: 120px;
+  }
+  .falsafa{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .falsafa h3{
+    margin-left: 195px;
+  }
+}
+
+/* ======================== 412 - 414 px ================= */
+@media screen and (min-width:412px) and (max-width:414px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .h-c{
+    font-size: 26px;
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .math{
+    animation: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .math h3{
+    margin-left: 170px;
+  }
+  .svt{
+    margin-left: 0px;
+    animation: none;
+    width: 100%;
+  }
+  .svt h3{
+    margin-left: 100px;
+    line-height: 2;
+  }
+  .english{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .english h3{
+    margin-left: 180px;
+  }
+  .geo{
+    margin-left: 0;
+    animation: none;
+    width: 100%;
+  }
+  .geo h3{
+    margin-left: 110px
+  }
+  .info{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .info h3{
+    margin-left: 170px;
+  }
+  .phisique{
+    animation: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .phisique h3{
+    margin-left: 120px;
+  }
+  .francais{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .francais h3{
+    margin-left: 140px;
+  }
+  .isla{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .isla h3{
+    margin-left: 120px;
+  }
+  .falsafa{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .falsafa h3{
+    margin-left: 190px;
+  }
+}
+
+/* ========================================== for tablet =====================================================*/
+
+/* 500-540 */
+@media screen and (min-width:500px) and (max-width:540px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .h-c{
+    font-size: 26px;
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .math{
+    animation: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .math h3{
+    margin-left: 250px;
+  }
+  .svt{
+    margin-left: 0px;
+    animation: none;
+    width: 100%;
+  }
+  .svt h3{
+    margin-left: 180px;
+    line-height: 2;
+  }
+  .english{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .english h3{
+    margin-left: 270px;
+  }
+  .geo{
+    margin-left: 0;
+    animation: none;
+    width: 100%;
+  }
+  .geo h3{
+    margin-left: 210px
+  }
+  .info{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .info h3{
+    margin-left: 270px;
+  }
+  .phisique{
+    animation: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .phisique h3{
+    margin-left: 220px;
+  }
+  .francais{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .francais h3{
+    margin-left: 250px;
+  }
+  .isla{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .isla h3{
+    margin-left: 230px;
+  }
+  .falsafa{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .falsafa h3{
+    margin-left: 300px;
+}
+}
+
+/* 1000 - 1024 */
+@media screen and (min-width:1000px) and (max-width:1024px) {
+  .container{
+    margin-left: 200px;
+  }
+}
+
+/* 700 - 768 */
+@media screen and (min-width:700px) and (max-width:768px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  } 
+  /* main */
+  .container{
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+  }
+  .h-c{
+    font-size: 26px;
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .math{
+    animation: none;
+    margin-left: 0;
+    width: 100%;
+  }
+  .math h3{
+    margin-left: 400px;
+  }
+  .svt{
+    margin-left: 0px;
+    animation: none;
+    width: 100%;
+  }
+  .svt h3{
+    margin-left: 330px;
+    line-height: 2;
+  }
+  .english{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .english h3{
+    margin-left: 410px;
+  }
+  .geo{
+    margin-left: 0;
+    animation: none;
+    width: 100%;
+  }
+  .geo h3{
+    margin-left: 340px
+  }
+  .info{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .info h3{
+    margin-left: 400px;
+  }
+  .phisique{
+    animation: none;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .phisique h3{
+    margin-left: 350px;
+  }
+  .francais{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .francais h3{
+    margin-left: 380px;
+  }
+  .isla{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .isla h3{
+    margin-left: 360px;
+  }
+  .falsafa{
+    margin-left: 0;
+    width: 100%;
+    animation: none;
+  }
+  .falsafa h3{
+    margin-left: 430px;
+}
+}
+
+/* 1030 - 1280 */
+@media screen and (min-width:1030px) and (max-width:1280px) {
+  .container{
+    margin-left: 520px;
+  }
+}
+
+/* 1300 - 1366 */
+@media screen and (min-width:1300px) and (max-width:1366px) {
+  .container{
+    margin-left: 620px;
+  }
+}
+
